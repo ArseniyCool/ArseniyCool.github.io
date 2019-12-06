@@ -1,1 +1,1 @@
-# MySite.github.io
+# LuXurySite.github.io
