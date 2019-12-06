@@ -1,0 +1,186 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 15pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+#header {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 15pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    font-size: 15pt;
+    color: #1E90FF;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 8px outset #FFFF00;
+    padding: 10px;
+    filter: brightness(140%);
+}
+p {
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+}
+.python {
+    border: 3px solid white;
+    border-radius: 50%;
+    filter: brightness(120%);
+}
+.section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 16px;
+}
+ 
+.section:hover { 
+  background: rgb(255, 255, 240);
+  border: 1px solid #FFFF00;
+
+}
+
+#header {
+    background-image: url("https://images.wallpaperscraft.ru/image/poligonalnyj_treugolniki_ottenki_130190_1920x1080.jpg");
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+    color: #1E90FF
+}
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 3px solid #FFFFFF;
+    text-align: center;
+    table-layout: fixed;
+}
+table:hover,th:hover, td:hover {
+    border: 3px solid #1E90FF;
+
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f36f48;
+}
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #1E90FF;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #1E90FF;
+} 
+progress::-moz-progress-bar {
+    color: #1E90FF;
+    background: #efefef;
+}
+.computer {
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+hr {
+    border: 0;
+    height: 4px;
+    background-color: #1E90FF;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: #1E90FF;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color:  #00BFFF;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+input:hover,textarea:hover { 
+  border: 1px solid #00BFFF;
+}
+.face {
+
+}
+#contacts img  {
+    height: 100px;
+    width: 100px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
